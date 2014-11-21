@@ -121,10 +121,16 @@ body {margin: 0;}
 }
 
 .sg-h2 {
+  color: #333;
   border-bottom: 2px solid #ddd;
   font-size: 1.5em;
   margin-bottom: .5em;
   text-transform: capitalize; 
+}
+
+.sg-h2 a {
+  color: #333;
+  border-bottom: none;
 }
 
 .sg-h3 {
@@ -136,6 +142,15 @@ body {margin: 0;}
 ---------------------------------------------------------------------------- */
 .sg-btn {
   background: #cbcbcb;
+  color: #222;
+  float: left;
+  padding: .5em .9em;
+  text-decoration: none;
+}
+
+a.sg-btn {
+  background: #cbcbcb;
+  border: none;
   color: #222;
   float: left;
   padding: .5em .9em;
@@ -252,7 +267,17 @@ body {margin: 0;}
 .sg-color-swatch:hover span {
   opacity: 1;
 }
+.sg-color--a .sg-color-swatch {background: #ffffff;}
 
+.sg-color--b .sg-color-swatch {background: #003366;}
+
+.sg-color--c .sg-color-swatch {background: #005596;}
+
+.sg-color--d .sg-color-swatch {background: #00457c;}
+
+.sg-color--e .sg-color-swatch {background: #444444;}
+
+.sg-color--f .sg-color-swatch {background: #badef5;}
 
 /* Fonts
 ---------------------------------------------------------------------------- */
