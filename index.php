@@ -84,7 +84,7 @@
 <body>
     
 <div id="top" class="sg-header sg-container">
-  <h1 class="sg-logo">STYLE GUIDE <span>BOILERPLATE</span></h1>
+  <h1 class="sg-logo">STYLE GUIDE></h1>
   <form id="js-sg-nav" action=""  method="post" class="sg-nav">
     <select id="js-sg-section-switcher" class="sg-section-switcher" name="sg_section_switcher">
         <option value="">Jump To Section:</option>
@@ -109,7 +109,7 @@
   <div class="sg-info">               
     <div class="sg-about sg-section">
       <h2 class="sg-h2"><a id="sg-about" class="sg-anchor">About</a></h2>
-      <p>Comments and documentation about your style guide. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus nobis enim labore facilis consequuntur! Veritatis neque est suscipit tenetur temporibus enim consequatur deserunt perferendis. Neque nemo iusto minima deserunt amet.</p>
+      <p>MGSE web pattern library</p>
     </div>
     <!--/.sg-about-->
     
