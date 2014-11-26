@@ -75,7 +75,7 @@
   <link rel="stylesheet" href="css/sg-style.css">
   
   <!-- Replace below stylesheet with your own stylesheet -->
-  <link media="all" href=" http://education.unimelb.edu.au/_mappdesign/mgsestaging_design2.css" type="text/css" rel="stylesheet">
+  <link media="all" href="//education.unimelb.edu.au/_mappdesign/mgsestaging_design.css" type="text/css" rel="stylesheet">
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
   <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -150,17 +150,19 @@
 
   <script src="js/sg-plugins.js"></script>
   <script src="js/sg-scripts.js"></script>
-<script src="http://education.unimelb.edu.au/__data/assets/js_file/0003/1159257/banner-roller.js"></script>
+<script src="//education.unimelb.edu.au/__data/assets/js_file/0003/1159257/banner-roller.js"></script>
 <!--these scripts should be kept below the slider stuff or it will break-->
 <!--collapsible-->
-<script src="http://education.unimelb.edu.au/_design/js/jquery.collapsible.min.js"></script>
+<script src="//education.unimelb.edu.au/_design/js/jquery.collapsible.min.js"></script>
 <!--js expander-->
-<script src="http://education.unimelb.edu.au/__data/assets/js_file/0011/590906/jquery.expander.min.js"></script>
+<script src="//education.unimelb.edu.au/__data/assets/js_file/0011/590906/jquery.expander.min.js"></script>
 <!--fitvid-->
-<script src="http://education.unimelb.edu.au/__data/assets/js_file/0009/1070388/fitVid.js"></script>
+<script src="//education.unimelb.edu.au/__data/assets/js_file/0009/1070388/fitVid.js"></script>
 
 <!--lazy sizes-->
-<script src="http://education.unimelb.edu.au/__data/assets/js_file/0010/1263277/lazysizes.min.js"></script>
+<script src="//education.unimelb.edu.au/__data/assets/js_file/0010/1263277/lazysizes.min.js"></script>
+
+<script src="//education.unimelb.edu.au/__data/assets/js_file/0018/1063035/respsonsiveTabs.js"></script>
 
 <script>
 jQuery(document).ready(function() {
@@ -222,6 +224,10 @@ $('.abstract').expander({
  $('html,body').animate({
   scrollTop: $('.collapse-open').offset().top 
   },1000);
+
+ $("ul.tabs").tabs("div.panes > div"); 
+});
+
 
 });
 </script>
