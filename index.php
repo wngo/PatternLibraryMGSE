@@ -75,7 +75,7 @@
   <link rel="stylesheet" href="css/sg-style.css">
   
   <!-- Replace below stylesheet with your own stylesheet -->
-  <link media="all" href="//education.unimelb.edu.au/_mappdesign/mgsestaging_design.css" type="text/css" rel="stylesheet">
+  <link media="all" href="//education.unimelb.edu.au/_mappdesign/mgsestaging_design2.css" type="text/css" rel="stylesheet">
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
   <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
