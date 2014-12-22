@@ -1,39 +1,53 @@
-<!--tabs-->
-<div class="tabs-wrap">
-  <ul class="tabs m-all d-all t-all">
-    <li>
-      <a href="#about">About the Program</a></li>
-    <li>
-      <a href="#team">Research Team</a></li>
-    <li>
-      <a href="#news">In the media</a></li>
-    
-    <li>
-      <a href="#publications">Publications </a></li>
-  </ul>
-</div>
-
-  <!-- tab "panes" -->
-  <div class="panes">
+<div class="tabs-wrap d-all m-all t-all">
+    <ul class="tabs" role="tablist">
+        <li role="presentation">
+            <a href="#section1" tabindex="0" role="tab" aria-controls="panel1" aria-selected="true">About Project</a>
+        </li>
+        <li role="presentation">
+            <a href="#section2" tabindex="-1" role="tab" aria-controls="panel2">Project Team</a>
+        </li>
+        <li role="presentation">
+            <a href="#section3" tabindex="-1" role="tab" aria-controls="panel3">Work in Progress</a>
+        </li>
+        <li role="presentation">
+            <a href="#section4" tabindex="-1" role="tab" aria-controls="panel4">Related Publications</a>
+        </li>
+        <li role="presentation">
+            <a href="#section5" tabindex="-1" role="tab" aria-controls="panel5">Related Projects</a>
+        </li>
+    </ul>
+</div><!-- tab "panes" -->
+<div class="panes">
     <!--about tab-->
-<div class="about-tab">
-  <h2>About</h2>
+    <div class="about-content" role="tabpanel" id="#section1">
+        <!--tab content-->
+        <h2>About</h2>
+        <p class="intro">
+            A 'smart-test' is an assessment that reveals thinking about a specific topic in mathematics. These short tests are accessed through an intelligent on-line environment. They provide teachers with an informative diagnosis of each students' mathematical understanding, based on extensive research.
+        </p>
+    </div><!--tab closed-->
+    <!--project team-->
+    <div id="section2" role="tabpanel" aria-hidden="true">
+        <h2>
+            Project Team
+        </h2><!--tab content-->
+    </div><!--tab closed-->
+    <div id="section3" role="tabpanel" aria-hidden="true">
+        <h2>
+            Work in Progress
+        </h2><!--tab content-->
+    </div><!--tab closed-->
 
-</div>
-<div class="about-tab">
-  <h2>Research</h2>
-
-</div>
-<div class="about-tab">
-  <h2>In the media</h2>
-
-</div>
-<div class="about-tab">
-  <h2>Publications</h2>
-
-</div>
-
-
-</div><!--pane closed -->
-
+    <div id="section4" role="tabpanel" aria-hidden="true">
+        <!--tab content-->
+        <h2>Publications</h2>
+    </div><!--tab closed-->
+    <div id="section5" role="tabpanel" aria-hidden="true">
+        <!--tab content-->
+        <h2>
+            Related Projects
+        </h2>
+    </div><!--tab closed-->
+</div><!-- panes closed-->
 <hr>
+

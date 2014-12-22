@@ -19,8 +19,15 @@
 
 body {margin: 0;}
 
+#top-header {
+  position: fixed;
+  width:100%;
+  z-index: 2;
+  box-shadow: 0 2px 4px #4a4a4a;
+}
+
 .sg-header {
-  background: #000;
+  background: #00457c;
   color: #fff;
   zoom: 1; /* IE6 Fix */
 }
@@ -45,6 +52,13 @@ body {margin: 0;}
   overflow: hidden;
   padding: 16px 24px; /* For older browsers */
   padding: 1rem 1.5rem;
+
+}
+
+.sg-body {
+  padding-top: 100px;
+  z-index: 1;
+  position: relative;
 }
 
 .sg-animated {
@@ -60,14 +74,23 @@ body {margin: 0;}
  Modules
 ---------------------------------------------------------------------------- */
 
+/* Carousel
+---------------------------------------------------------------------------- */
+
+#pgh-rolling-banners {
+  max-width: 1250px;
+}
+
 /* Branding
 ---------------------------------------------------------------------------- */
 .sg-logo {
   float: left;
-  font-size: 1.5em;
-  font-weight: normal;
+  font-size: 2.5em;
+  font-weight: 700;
   margin: 0;
   padding: 0;
+  color: #fff;
+  font-family: Arial;
 }
 
   .sg-logo span {
@@ -134,7 +157,9 @@ body {margin: 0;}
 }
 
 .sg-h3 {
-  font-size: 1.2em;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  color: #444;
 }
 
 
@@ -220,6 +245,7 @@ a.sg-btn {
 .sg-section {
   margin-bottom: 32px; /* For older browsers */ 
   margin-bottom: 3rem;
+  padding-left:1rem;
   overflow: hidden;
 }
 
@@ -235,11 +261,11 @@ a.sg-btn {
   background: #fff;
   border: 1px solid #bbb;
   display: inline-block;
-  height: 89px;
+  height: 150px;
   margin: 0 .5em .5em 0;
   padding: 5px;
   position: relative;
-  width: 89px;
+  width: 150px;
 }
 
 .sg-color-swatch {
@@ -251,12 +277,12 @@ a.sg-btn {
 
 .sg-color-swatch span {
   background: #000;
-  background: rgba(0,0,0,.7);
+  background: rgba(0,0,0,.3);
   bottom: 0;
   color: #fff;
   font-size: .8em;
   margin: 0;
-  opacity: 0;
+  opacity: 1;
   padding: 5px 0;
   position: absolute;
   text-align: center;
@@ -269,7 +295,7 @@ a.sg-btn {
 }
 .sg-color--a .sg-color-swatch {background: #ffffff;}
 
-.sg-color--b .sg-color-swatch {background: #003366;}
+.sg-color--b .sg-color-swatch {background: #dfe9f4;}
 
 .sg-color--c .sg-color-swatch {background: #005596;}
 
@@ -278,6 +304,15 @@ a.sg-btn {
 .sg-color--e .sg-color-swatch {background: #444444;}
 
 .sg-color--f .sg-color-swatch {background: #badef5;}
+
+.sg-color--blue .sg-color-swatch {background: rgb(0,68,124); }
+.sg-color--grey .sg-color-swatch {background: rgb(196,196,197); }
+.sg-color--black .sg-color-swatch {background: rgb(32,32,30); }
+
+.sg-shard-color--a .sg-color-swatch {background: #B7D1ED;}
+.sg-shard-color--b .sg-color-swatch {background: #009DDC;}
+.sg-shard-color--c .sg-color-swatch {background: #026CB6;}
+.sg-shard-color--d .sg-color-swatch {background: #00447C;}
 
 /* Fonts
 ---------------------------------------------------------------------------- */
