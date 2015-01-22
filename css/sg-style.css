@@ -1,6 +1,6 @@
 /* -------------------------------------------------------------------------
 
- Style Guide Boilerplate v2.0.1
+ Style Guide Boilerplate
  Repo: https://github.com/bjankord/Style-Guide-Boilerplate
  Author: Brett Jankord
  License: MIT
@@ -11,13 +11,17 @@
  Layout
 ---------------------------------------------------------------------------- */
 /* http:/paulirish.com/2012/box-sizing-border-box-ftw/ */
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box; 
+     -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-body {margin: 0;}
+body {
+  margin: 0;
+}
 
 #top-header {
   position: fixed;
@@ -29,7 +33,7 @@ body {margin: 0;}
 .sg-header {
   background: #00457c;
   color: #fff;
-  zoom: 1; /* IE6 Fix */
+  zoom: 1;
 }
 
 @media screen and (max-width: 650px) {
@@ -39,7 +43,8 @@ body {margin: 0;}
 }
 
 
-.sg-info, .sg-base-styles {
+.sg-info,
+.sg-base-styles {
   padding-bottom: 24px; /* For older browsers */
   padding-bottom: 2rem;
 }
@@ -56,13 +61,13 @@ body {margin: 0;}
 }
 
 .sg-body {
-  padding-top: 100px;
+  padding-top: 130px;
   z-index: 1;
   position: relative;
 }
 
 .sg-animated {
-  -webkit-transition: all 0.6s ease-out;  
+  -webkit-transition: all 0.6s ease-out;
      -moz-transition: all 0.6s ease-out;
       -ms-transition: all 0.6s ease-out;
        -o-transition: all 0.6s ease-out;
@@ -87,7 +92,7 @@ body {margin: 0;}
   float: left;
   font-size: 2.5em;
   font-weight: 700;
-  margin: 0;
+  margin-top: 22px;
   padding: 0;
   color: #fff;
   font-family: Arial;
@@ -137,7 +142,7 @@ body {margin: 0;}
   margin-top: 0;
 }
 
-.sg-h1 {    
+.sg-h1 {
   font-size: 1.75em;
   font-weight: bold;
   padding-bottom: .2em;
@@ -148,7 +153,7 @@ body {margin: 0;}
   border-bottom: 2px solid #ddd;
   font-size: 1.5em;
   margin-bottom: .5em;
-  text-transform: capitalize; 
+  text-transform: capitalize;
 }
 
 .sg-h2 a {
@@ -243,7 +248,7 @@ a.sg-btn {
 /* Sections
 ---------------------------------------------------------------------------- */
 .sg-section {
-  margin-bottom: 32px; /* For older browsers */ 
+  margin-bottom: 32px; /* For older browsers */
   margin-bottom: 3rem;
   padding-left:1rem;
   overflow: hidden;
@@ -361,7 +366,7 @@ a.sg-btn {
 .js .sg-source.is-active,
 .operamini .sg-source,
 .legacy .sg-source {
-  max-height: 2400px; 
+  max-height: 2400px;
 }
 
 
@@ -373,29 +378,29 @@ a.sg-btn {
 @media screen {
   .str,
   .string {color: #E6DB74;} /* string content */
-  
+
   .kwd,
   .keyword {color: #66D9EF;} /* a keyword */
-  
+
   .com,
   .comment {color: #75715E;} /* a comment */
-  
+
   .typ {color: #A6E22E;} /* a type name */
-  
+
   .lit,
   .number {color: #AE81FF;} /* a literal value */
-  
+
   /* punctuation, lisp open bracket, lisp close bracket */
   /* .pun, .opn, .clo { color: #660 } */
-  
+
   .tag {color: #F92672;} /* a markup tag name */
-  
+
   .atn {color: #A6E22E;} /* a markup attribute name */
-  
+
   .atv {color: #E6DB74;} /* a markup attribute value */
-  
+
   /*.dec, .var { color: #606 }*/ /* a declaration; a variable name */
-  
+
   .fun {color: #FF0000;} /* a function name */
 }
 
@@ -404,22 +409,22 @@ a.sg-btn {
   .str {color: #060}
 
   .kwd {color: #006; font-weight: bold }
-  
+
   .com {color: #600; font-style: italic }
-  
+
   .typ {color: #404; font-weight: bold }
-  
+
   .lit {color: #044}
-  
-  .pun, 
-  .opn, 
-  
+
+  .pun,
+  .opn,
+
   .clo {color: #440}
-  
+
   .tag {color: #006; font-weight: bold }
-  
+
   .atn {color: #404}
-  
+
   .atv {color: #060}
 }
 

@@ -71,7 +71,7 @@ endforeach;
   <link rel="stylesheet" href="css/sg-style.css">
   
   <!-- Replace below stylesheet with your own stylesheet -->
-  <link media="all" href="http://education.unimelb.edu.au/_mappdesign/mgsestaging_design2.css" type="text/css" rel="stylesheet">
+  <link media="all" href="../dev.education.unimelb.edu.au/Build/_design/sass/main.css" type="text/css" rel="stylesheet">
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
